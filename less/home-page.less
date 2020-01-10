@@ -71,14 +71,9 @@
       width: 30%;
       margin-bottom: 30px;
 
+      // Mixin value: (Width, Parameter, Font-Size)
       .btn {
-        background-color: @button-bg;
-        border-radius: 12px;
-        width: 80%;
-        color: white;
-        text-align: center;
-        padding: 5%;
-        font-size: 1.6rem;
+        .button-mixin(80%, 5%, 1.6rem);
       }
     }
 
