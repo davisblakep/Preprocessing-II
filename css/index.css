@@ -168,6 +168,29 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 2%;
+  padding-bottom: 2%;
+  border-bottom: 2px dashed #C0C0C0;
+}
+header nav h1 {
+  color: #212529;
+}
+header nav .navbar {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+  font-size: 1.7rem;
+}
+header nav .navbar a {
+  text-decoration: none;
+  color: #212529;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
@@ -178,6 +201,18 @@ img {
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
+}
+.home .fun-bus-image {
+  background-image: url('../img/fun-bus.jpg');
+  background-size: 100%;
+  background-repeat: none;
+  background-position: center;
+  height: 30vh;
+}
+.home .intro {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-bottom: 2px dashed #C0C0C0;
 }
 .home .content-section {
   margin: 30px 0;
@@ -224,4 +259,13 @@ img {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.home .content-pick .destination .btn {
+  background-color: #17A2B8;
+  border-radius: 12px;
+  width: 80%;
+  color: white;
+  text-align: center;
+  padding: 5%;
+  font-size: 1.6rem;
 }
