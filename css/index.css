@@ -177,6 +177,13 @@ header nav {
   padding-bottom: 2%;
   border-bottom: 2px dashed #C0C0C0;
 }
+@media (max-width: 500px) {
+  header nav {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 0%;
+  }
+}
 header nav h1 {
   color: #212529;
 }
@@ -186,6 +193,11 @@ header nav .navbar {
   justify-content: space-between;
   padding: 2%;
   font-size: 1.7rem;
+}
+@media (max-width: 500px) {
+  header nav .navbar {
+    width: 100%;
+  }
 }
 header nav .navbar a {
   text-decoration: none;
@@ -220,13 +232,31 @@ header nav .navbar a {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+@media (max-width: 500px) {
+  .home .content-section {
+    flex-direction: column;
+  }
+}
 .home .content-section .text-content {
   width: 48%;
   padding-right: 1%;
 }
+@media (max-width: 500px) {
+  .home .content-section .text-content {
+    width: 100%;
+    padding-right: 0;
+  }
+}
 .home .content-section .img-content {
   width: 48%;
   padding-left: 1%;
+}
+@media (max-width: 500px) {
+  .home .content-section .img-content {
+    width: 100%;
+    padding-left: 0;
+    align-items: center;
+  }
 }
 .home .content-section .img-content img {
   border-radius: 10px;
@@ -234,6 +264,12 @@ header nav .navbar a {
 .home .inverse-content {
   padding-bottom: 30px;
   border-bottom: 2px dashed #C0C0C0;
+}
+@media (max-width: 500px) {
+  .home .inverse-content {
+    flex-direction: column-reverse;
+    width: 100%;
+  }
 }
 .home .inverse-content .text-content {
   padding-left: 1%;
@@ -243,9 +279,22 @@ header nav .navbar a {
   padding-right: 1%;
   padding-left: 0;
 }
+@media (max-width: 500px) {
+  .home .inverse-content .img-content {
+    width: 100%;
+    padding-right: 0;
+    align-items: center;
+  }
+}
 .home .content-destination {
   width: 75%;
   margin: 0 auto 30px;
+}
+@media (max-width: 500px) {
+  .home .content-destination {
+    flex-direction: column;
+    width: 100%;
+  }
 }
 .home .content-destination img {
   border-radius: 10px;
@@ -256,9 +305,20 @@ header nav .navbar a {
   display: flex;
   justify-content: space-between;
 }
+@media (max-width: 500px) {
+  .home .content-pick {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+@media (max-width: 500px) {
+  .home .content-pick .destination {
+    width: 60%;
+  }
 }
 .home .content-pick .destination .btn {
   background-color: #17A2B8;
