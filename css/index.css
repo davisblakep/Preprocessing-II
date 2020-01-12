@@ -256,10 +256,12 @@ header nav .navbar a {
     width: 100%;
     padding-left: 0;
     align-items: center;
+    justify-content: center;
   }
 }
 .home .content-section .img-content img {
   border-radius: 10px;
+  justify-content: center;
 }
 .home .inverse-content {
   padding-bottom: 30px;
@@ -269,6 +271,8 @@ header nav .navbar a {
   .home .inverse-content {
     flex-direction: column-reverse;
     width: 100%;
+    justify-content: center;
+    align-items: center;
   }
 }
 .home .inverse-content .text-content {
@@ -284,6 +288,7 @@ header nav .navbar a {
     width: 100%;
     padding-right: 0;
     align-items: center;
+    justify-content: center;
   }
 }
 .home .content-destination {
